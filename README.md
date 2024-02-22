@@ -1,72 +1,31 @@
 js-fizzbuzz
 ===
-Abstract:xxx
-## Papar Information
-- Title:  `paper name`
-- Authors:  `A`,`B`,`C`
-- Preprint: [https://arxiv.org/abs/xx]()
-- Full-preprint: [paper position]()
-- Video: [video position]()
+**Consegna**
 
-## Install & Dependence
-- python
-- pytorch
-- numpy
+Scrivi un programma che **stampi in console** i numeri da 1 a 100,
+ma che per i multipli di 3 stampi “Fizz” al posto del numero e per i multipli di 5 stampi “Buzz”.
 
-## Dataset Preparation
-| Dataset | Download |
-| ---     | ---   |
-| dataset-A | [download]() |
-| dataset-B | [download]() |
-| dataset-C | [download]() |
+Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
 
-## Use
-- for train
-  ```
-  python train.py
-  ```
-- for test
-  ```
-  python test.py
-  ```
-## Pretrained model
-| Model | Download |
-| ---     | ---   |
-| Model-1 | [download]() |
-| Model-2 | [download]() |
-| Model-3 | [download]() |
+**Prima di partire a scrivere codice poniamoci qualche domanda:**
 
+Come faccio a sapere se un numero è divisibile per un altro?
+Abbiamo visto qualcosa di particolare che possiamo usare?
 
-## Directory Hierarchy
-```
-|—— js
-|—— main
-```
-## Code Details
-### Tested Platform
-- software
-  ```
-  OS: Debian unstable (May 2021), Ubuntu LTS
-  Python: 3.8.5 (anaconda)
-  PyTorch: 1.7.1, 1.8.1
-  ```
-- hardware
-  ```
-  CPU: Intel Xeon 6226R
-  GPU: Nvidia RTX3090 (24GB)
-  ```
-### Hyper parameters
-```
-```
-## References
-- [paper-1]()
-- [paper-2]()
-- [code-1](https://github.com)
-- [code-2](https://github.com)
-  
-## License
+**Consigli del giorno:**
 
-## Citing
-If you use xxx,please use the following BibTeX entry.
-```
-```
+1. Scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
+
+2. Proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo “a mano”
+
+**BONUS 1:**
+
+Crea un container nel DOM , aggiungendo (attraverso la funzione `append()` oppure concatenando un template literal con innerHTML) un elemento html con il numero o la stringa corretta da mostrare.
+
+**BONUS 2:**
+
+Applica stili differenti agli elementi aggiunti al DOM nel *BONUS 1*, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz.
+
+## Svolgimento
+1. Andare a creare un ciclo nel js che mi stampi in consol i numeri da uno a 100.
+2. Andare a dare tre eccezzioni, **fizz** al posto dei numeri multipli solo di 3, **buzz** ai numeri multipli solo di 5 & **fizzbuzz** ai numeri che sono multipli sia di 3 che di 5.
