@@ -19,9 +19,9 @@ for(let i = 1; i <= limit; i++){
     <li class="my-square buzz">buzz</li>
     `;
   } else if(!(i % m3) && !(i % m5)){
-    console.log('fizzbuzz');
+    console.log('FizzBuzz');
     myList.innerHTML +=`
-    <li class="my-square fizz-buzz">fizzbuzz</li>
+    <li class="my-square fizz-buzz">FizzBuzz</li>
     `;
   } else{
     console.log(i);
