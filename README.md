@@ -29,3 +29,7 @@ Applica stili differenti agli elementi aggiunti al DOM nel *BONUS 1*, a seconda 
 ## Svolgimento
 1. Andare a creare un ciclo nel js che mi stampi in consol i numeri da uno a 100.
 2. Andare a dare tre eccezzioni, **fizz** al posto dei numeri multipli solo di 3, **buzz** ai numeri multipli solo di 5 & **fizzbuzz** ai numeri che sono multipli sia di 3 che di 5.
+3. **BONUS 1:**
+Riportare nell'HTML i dati dei consol.log e renderli visibbili.
+4. **BONUS 2:**
+Utilizzare stili differenti per differenziare fizz, buzz, fizzbuzz e un numero.
