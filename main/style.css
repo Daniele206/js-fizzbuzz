@@ -1,0 +1,44 @@
+#my-list{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.my-h-100{
+  min-height: 100vh;
+}
+
+.my-title{
+  font-size: 5rem;
+  padding-top:2rem;
+}
+
+.my-square{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.my-element{
+  background-color: red;
+}
+
+.fizz{
+  background-color: green;
+}
+
+.buzz{
+  background-color: yellow;
+}
+
+.fizz-buzz{
+  background-color: blue;
+}
