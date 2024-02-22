@@ -1,10 +1,10 @@
 // costanti
-const limit = 101;
+const limit = 100;
 const m3 = 3;
 const m5 = 5;
 
 // ciclo
-for(let i = 1; i < limit; i++){
+for(let i = 1; i <= limit; i++){
   if(!(i % m3) && (i % m5)){
     console.log('fizz');
   } else if((i % m3) && !(i % m5)){
